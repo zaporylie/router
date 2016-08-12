@@ -1,0 +1,18 @@
+{
+    "name": "nymediaas/router",
+    "description": "Make outgoing requests for incoming ones.",
+    "type": "router-core",
+    "require": {
+        "silex/silex": "^2.0",
+        "symfony/yaml": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*",
+        "squizlabs/php_codesniffer": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Router\\": "src/Router/"
+        }
+    }
+}
